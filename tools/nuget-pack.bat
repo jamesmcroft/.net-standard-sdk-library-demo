@@ -1,0 +1,1 @@
+nuget pack "..\src\pcl\MySDK\MySDK.nuspec"
