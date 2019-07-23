@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MySDK</id>
+    <version>1.0.0</version>
+    <title>MySDK</title>
+    <authors>James Croft</authors>
+    <owners>James Croft</owners>
+    <projectUrl>https://github.com/jamesmcroft/.net-standard-sdk-library-demo</projectUrl>
+    <description>Just another SDK.</description>
+    <copyright>Copyright (c) James Croft. All rights reserved.</copyright>
+  </metadata>
+  <files>
+    <file src="MySDK.Common\bin\Release\netstandard2.0\*.dll" target="lib\netstandard20" />
+    <file src="MySDK.Windows\bin\Release\*.dll" target="lib\uap10.0" />
+    <file src="MySDK.Android\bin\Release\*.dll" target="lib\MonoAndroid81" />
+    <file src="MySDK.iOS\bin\Release\*.dll" target="lib\Xamarin.iOS10" />
+  </files>
+</package>

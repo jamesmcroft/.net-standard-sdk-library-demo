@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MySDK</RootNamespace>
+    <NeutralLanguage>English</NeutralLanguage>
+    <PackageId>MySDK</PackageId>
+    <Authors>James Croft</Authors>
+    <Company>James Croft</Company>
+    <Product>MySDK</Product>
+    <Description>Just another SDK</Description>
+  </PropertyGroup>
+
+</Project>
